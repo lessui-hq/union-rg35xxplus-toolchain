@@ -13,5 +13,5 @@ mv $SYSROOT_TAR /opt && cd /opt
 mkdir $TARGET_DIR
 tar -xvf $SYSROOT_TAR -C $TARGET_DIR
 rm $SYSROOT_TAR
-rsync -a --ignore-existing $TARGET_DIR/ /opt/rg35xxplus-toolchain/usr/arm-buildroot-linux-gnueabihf/sysroot/
+rsync -a --ignore-existing $TARGET_DIR/ /opt/rg35xxplus-toolchain/usr/aarch64-buildroot-linux-gnu/sysroot/
 rm -rf $TARGET_DIR
